@@ -21,7 +21,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "M";
+const prefix = "Q";
 /////////////////////////
 ////////////////////////
 
@@ -343,8 +343,8 @@ client.on('message', message => {
     }	
 });
 
-const adminprefix = "M";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const devs = ['436866648381849600'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const adminprefix = "Q";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const devs = ['473980734109909007'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
     if (!devs.includes(message.author.id)) return;//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
