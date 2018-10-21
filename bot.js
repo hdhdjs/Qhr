@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
+const prefix = '''
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
 });
 
-const devs = ['473980734109909007' , '' , '' , ''];
+const devs = ['375281195996676096' , '' , '' , ''];
 const adminprefix = ".";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
